@@ -8,6 +8,9 @@
 </head>
 <body>
     <?php require 'views/header.php';?>
+
+    <div class="fondo_reg_sec"> <div class="filtro_sec"> <!-- Filtro --></div> </div>
+
     <div class="p_seccion">
         <div id="form_seccion">
             <h1 class="centro">Registrarse</h1>

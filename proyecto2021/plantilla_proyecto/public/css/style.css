@@ -1,6 +1,9 @@
 body{
     margin: 0;
-    background-color: rgba(116, 164, 255, 0.45)!important ;
+    /*background-color: rgba(116, 164, 255, 0.45)!important ;*/
+    background: linear-gradient(0deg, rgba(34,89,195,0.3148994017183111) 0%, rgba(45,253,242,0.3233263680104459) 75%);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /*****************************************************************************************************/
 /*                                                          errores                                  */
@@ -37,12 +40,12 @@ input, textarea, select{  /*borde redondo*/
 }
 .centrar{
     margin-left: 50%;
-    transform:  translateX(-50%);
+    transform: translateX(-50%);
 }
 
 
 /**************************************************************************************************/
-/*                                    Elemrntos buscador                                          */
+/*                                    Elementos buscador                                          */
 #buscador {
     background-color: black;
     width: 100%;
@@ -100,13 +103,29 @@ input, textarea, select{  /*borde redondo*/
     background-image: url('/Proyecto/proyecto2021/plantilla_proyecto/public/imagenes/fondo_pc.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 .filtro{
     background-color: rgba(0, 30, 142, 0.5);
     background:  radial-gradient(circle, rgba(1,64,133,0.6435510871115695) 0%, rgba(2,3,131,0.5873713118306707) 100%);
     z-index: -1;
     position: relative;
+}
+
+.cont_principal{
+    background-color: rgba(2, 13, 48, 0.8);
+    color: white;
+    border-radius: 10px;
+    margin: 15px 20px;
+    margin-right: 25%;
+    padding: 15px 10px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.cont_principal a{
+    text-decoration: none;
+    color: #7512D2;
+    font-family: verdana;
 }
 
 
@@ -124,8 +143,8 @@ input, textarea, select{  /*borde redondo*/
     margin-bottom: 10%;
 }
 
-/*************************************************************/
-/*                inicio de sección y registro               */
+/**************************************************************************************/
+/*                             inicio de sección y registro                           */
 .p_seccion {
     margin: 10px 25%;
     border: 2px solid black;
@@ -145,6 +164,34 @@ input, textarea, select{  /*borde redondo*/
     width: 100%;
     margin: 3vh 0;
 
+}
+
+.fondo_in_sec, .fondo_reg_sec{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+}
+
+.fondo_in_sec{
+    background-image: url("/Proyecto/proyecto2021/plantilla_proyecto/public/imagenes/compu.png");
+}
+
+.fondo_reg_sec{
+    background-image: url("/Proyecto/proyecto2021/plantilla_proyecto/public/imagenes/mesa_compu.png");
+}
+
+.filtro_sec{
+    background: rgb(16,10,218);
+    background: radial-gradient(circle, rgba(12, 7, 141, 0.77) 0%, rgba(32, 97, 100, 0.77) 100%);
+    position: relative;
+    z-index: -1;
+}
+
+.filtro_sec, .fondo_in_sec, .fondo_reg_sec{
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .boton_sec{

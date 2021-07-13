@@ -1,5 +1,6 @@
 
     <?php require 'views/header.php';?>
+    <div class="fondo_in_sec">  <div class="filtro_sec"> <!-- Filtro --> </div> </div>
     <div class="p_seccion">
         <div id="form_seccion">
             <h1 class="centro">Iniciar Sección</h1>

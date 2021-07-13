@@ -15,20 +15,13 @@
     <div class="fondo"><div class="filtro"> <!--filtro--></div></div>
     
 
-    <div class="principal">
-        <h1>Bienvenido a TrainCode</h1>
-        <br>
-        <p>Esta es una platafotma en la que podras interactuar con la comuidad publicando y resolviendo ejercicios programación</p>
+    <div class="cont_principal">
+        <h1 class="centro">Bienvenido a TrainCode</h1>
+        <p>Esta es una platafotma en la que podras interactuar con la comuidad publicando y resolviendo ejercicios programación.</p> 
+        <p>ayudanos a mejorar esta comunidad compartieendo y publicando contenido.</p>
+        <p>si aun no estas registrado <a href="<?php echo constant('URL'); ?>registro_seccion">Inicia Aqui</a></p>
     </div>
 
-    <div class="principal">
-    <p>ayudanos a mejorar esta comunidad compartieendo y publicando contenido</p>   
-    </div>
-    
-
-   
-   
-    
     
 </body>
 </html>
